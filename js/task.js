@@ -38,6 +38,11 @@ console.log(ogos);
 //Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
 //Po kiekvieno jų inicijavimo, išvesti į console
 
+const fruit = 'banana';
+const vegetable = 'cucumber';
+const drink = 'juice';
 
+const mix = `${fruit[2]}.${vegetable[3]}.${drink[0]}.`;
+console.log(mix);
 
 
