@@ -1,6 +1,14 @@
 //Susumuoti visus skaičiaus tipo kintamuosius
 //Rezultatą išvesti į console
 
+const monthAugust = '31';
+const monthSeptember = '30';
+const monthFebruary = '28';
+
+const summary = `(${monthAugust} + ${monthSeptember} + ${monthFebruary})`;
+console.log(summary);
+
+
 //Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
 //Rezultatą išvesti į console
 
