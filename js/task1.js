@@ -1,12 +1,13 @@
 //Susumuoti visus skaičiaus tipo kintamuosius
 //Rezultatą išvesti į console
 
-const monthAugust = '31';
-const monthSeptember = '30';
-const monthFebruary = '28';
+const monthAugust = 31;
+const monthSeptember = 30;
+const monthFebruary = 28;
 
-const summary = `(${monthAugust} + ${monthSeptember} + ${monthFebruary})`;
+const summary = monthAugust + monthSeptember + monthFebruary;
 console.log(summary);
+
 
 
 //Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
@@ -26,5 +27,6 @@ console.log(fullName);
 //Rezultatą išvesti į console
 
 //Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
+
 
 
